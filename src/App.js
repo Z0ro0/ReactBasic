@@ -1,9 +1,13 @@
 import React from 'react';
 
 function App() {
+
+  const onSubmit = () =>{
+    alert('submitted');
+  }
   return (
     <div className="App">
-      Z0ro0
+      <button onClick={onSubmit}>submit</button>
     </div>
   );
 }
